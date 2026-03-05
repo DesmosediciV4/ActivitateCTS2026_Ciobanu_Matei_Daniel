@@ -11,9 +11,13 @@ import java.util.Scanner;
 
 public class AngajatiReader extends AplicantiReader {
 
+    public AngajatiReader(String numeFisier) {
+        super(numeFisier);
+    }
+
     @Override
-    public List<Aplicant> readAplicanti(String file) throws FileNotFoundException {
-        Scanner input = new Scanner(new File(file));
+    public List<Aplicant> readAplicanti() throws FileNotFoundException {
+        Scanner input = new Scanner(new File(super.numeFisier));
         input.useDelimiter(",");
         List<Aplicant> angajati = new ArrayList<>();
 
