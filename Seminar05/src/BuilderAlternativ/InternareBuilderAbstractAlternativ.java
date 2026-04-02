@@ -1,6 +1,6 @@
 package BuilderAlternativ;
 
-import Builder.Internare;
+import BuilderEager.Internare;
 
 public interface InternareBuilderAbstractAlternativ {
     Internare build(String nume);

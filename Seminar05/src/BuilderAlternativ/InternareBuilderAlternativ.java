@@ -1,6 +1,6 @@
 package BuilderAlternativ;
 
-import Builder.Internare;
+import BuilderEager.Internare;
 
 public class InternareBuilderAlternativ implements InternareBuilderAbstractAlternativ{
     private boolean patRabatabil;
