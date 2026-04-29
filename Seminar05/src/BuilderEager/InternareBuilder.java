@@ -1,4 +1,4 @@
-package Builder;
+package BuilderEager;
 
 public class InternareBuilder implements InternareBuilderAbstract {
     private Internare internare;

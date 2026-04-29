@@ -1,7 +1,7 @@
 package Program;
 
-import Builder.Internare;
-import Builder.InternareBuilder;
+import BuilderEager.Internare;
+import BuilderEager.InternareBuilder;
 import BuilderAlternativ.InternareBuilderAlternativ;
 
 public class Main {

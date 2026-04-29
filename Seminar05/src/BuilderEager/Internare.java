@@ -1,4 +1,4 @@
-package Builder;
+package BuilderEager;
 
 public class Internare {
     protected String numePacient;
