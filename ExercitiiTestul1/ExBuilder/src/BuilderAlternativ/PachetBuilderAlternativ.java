@@ -1,7 +1,6 @@
 package BuilderAlternativ;
 
 import BuilderEager.Pachet;
-import BuilderEager.PachetBuilder;
 
 public class PachetBuilderAlternativ implements PachetBuilderAbstractAlternativ{
     private boolean wifi;

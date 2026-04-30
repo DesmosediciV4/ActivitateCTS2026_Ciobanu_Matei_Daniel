@@ -4,7 +4,6 @@ import fabrica.Fabrica;
 import fabrica.TipTransport;
 import mijloaceTransport.Autobuz;
 import mijloaceTransport.MijlocTransport;
-import mijloaceTransport.Tramvai;
 
 public class Main{
     public static void main(String[] args) {
